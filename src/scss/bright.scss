@@ -1,3 +1,10 @@
+$color : #fff !default;
+@function color-variation($source, $value) {
+  @return darken($source, $value)
+}
 
+@import "common/variable.scss";
+@import "common/mixin.scss";
+@import "common/fonts.scss";
 @import "common/color.scss";
 @import "component/button.scss";

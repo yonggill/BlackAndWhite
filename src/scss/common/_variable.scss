@@ -1,0 +1,27 @@
+$color-level0: $color;
+$color-level1: color-variation($color, 2.5);
+$color-level2: color-variation($color, 5);
+$color-level3: color-variation($color, 7.5);
+$color-level4: color-variation($color, 10);
+
+$color-level5: color-variation($color, 25);
+$color-level6: color-variation($color, 30);
+$color-level7: color-variation($color, 35);
+$color-level8: color-variation($color, 40);
+
+$color-level9: color-variation($color, 45);
+$color-level10: color-variation($color, 50);
+$color-level11: color-variation($color, 55);
+$color-level12: color-variation($color, 60);
+$color-level13: color-variation($color, 65);
+$color-level14: color-variation($color, 70);
+$color-level15: color-variation($color, 75);
+$color-level16: color-variation($color, 80);
+$color-level17: color-variation($color, 85);
+$color-level18: color-variation($color, 90);
+$color-level19: color-variation($color, 95);
+$color-level20: color-variation($color, 100);
+
+
+$body-color: $color-level16;
+$background-color: $color-level4;

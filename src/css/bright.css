@@ -1,0 +1,87 @@
+/**
+ * Copyright (c) 2015 Spoqa, Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 700;
+  src: local("Spoqa Han Sans Bold"), url("./../fonts/SpoqaHanSansBold.woff2") format("woff2"), url("./../fonts/SpoqaHanSansBold.woff") format("woff"), url("./../fonts/SpoqaHanSansBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 400;
+  src: local("Spoqa Han Sans Regular"), url("./../fonts/SpoqaHanSansRegular.woff2") format("woff2"), url("./../fonts/SpoqaHanSansRegular.woff") format("woff"), url("./../fonts/SpoqaHanSansRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 300;
+  src: local("Spoqa Han Sans Light"), url("./../fonts/SpoqaHanSansLight.woff2") format("woff2"), url("./../fonts/SpoqaHanSansLight.woff") format("woff"), url("./../fonts/SpoqaHanSansLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 100;
+  src: local("Spoqa Han Sans Thin"), url("./../fonts/SpoqaHanSansThin.woff2") format("woff2"), url("./../fonts/SpoqaHanSansThin.woff") format("woff"), url("./../fonts/SpoqaHanSansThin.ttf") format("truetype"); }
+
+* {
+  font-family: 'Spoqa Han Sans', 'Sans-serif'; }
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent; }
+
+.btn-sm {
+  padding: 3px 5px;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25); }
+
+.btn-md {
+  padding: 5px 7px;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); }
+
+.btn-lg {
+  padding: 9px 11px;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); }
+
+.btn-light {
+  color: #f2f2f2;
+  background-color: #f9f9f9; }
+
+.btn-medium {
+  color: #666666;
+  background-color: #f2f2f2; }
+
+.btn-dark {
+  color: #666666;
+  background-color: #f2f2f2; }

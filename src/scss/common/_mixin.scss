@@ -1,0 +1,6 @@
+@mixin box-shadow($height, $width, $radius, $opacity) {
+  -webkit-box-shadow: $height $width $radius 0 rgba(0,0,0,$opacity);
+  -moz-box-shadow: $height $width $radius rgba(0,0,0,$opacity);
+  box-shadow: $height $width $radius rgba(0,0,0,$opacity);
+}
+
