@@ -30,16 +30,16 @@
 
 // color
 .btn-light {
-  color: $color-level2;
-  background-color: $color-level1;
+  color: color(40);
+  background-color: color(4);
 }
 
 .btn-medium {
-  color: $color-level12;
-  background-color: $color-level2;
+  color: color(2);
+  background-color: color(20);
 }
 
 .btn-dark {
-  color: $color-level12;
-  background-color: $color-level2;
+  color: color(2);
+  background-color: color(40);
 }

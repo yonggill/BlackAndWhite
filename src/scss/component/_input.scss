@@ -1,0 +1,19 @@
+input[type=text] {
+
+  &.sm {
+    border-radius: 4px;
+    padding: 4px 6px;
+    @include box-shadow(1px, 1px, 4px, 0.25);
+  }
+
+  &.light {
+    border-color: color(1);
+  }
+  &.medium {
+    border-color: color(20);
+  }
+  &.dark {
+    border-color: color(40);
+  }
+
+}
